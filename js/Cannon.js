@@ -7,6 +7,8 @@ class Cannon {
     this.angle = angle;
   }
   display() {
+    // change the angle in the upward direction when the left arrow key was pressed
+   //  changed the angle in the downward direction when the right arrow key was pressed
     fill("#676e6a");
     push();
     translate(this.x, this.y);
